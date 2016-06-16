@@ -14,7 +14,7 @@ Because I wanted to redo my post organization anyway I didn't research blog cate
 
 ## Implementation
 
-This utility expects a SQL server to be running and that you have a WordPress includes directory that you want copied. It does not transform HTML to markdown nor does it validate the HTML of the posts. I found when using this that I had to manually tweak a few of my posts to make them display correctly (especialy those that contained html code examples) you will likely need to do the same.
+This utility expects a SQL server to be running and that you have a WordPress includes directory that you want copied. It does not transform HTML to markdown nor does it validate the HTML of the posts. I found when using this that I had to manually tweak a few of my posts to make them display correctly (especially those that contained html code examples) you will likely need to do the same.
 
 Comments will also be copied into the body of your post (though you can override this with an option) under the div with class "archived comments" that way you can style it however you choose. Again, if you want to fork this and change the way that works you may.
 
@@ -40,7 +40,7 @@ If you make changes to the code you'll need to have [Leiningen](http://leiningen
 ## Options
 
 | Option | Description | Required | Default |  Notes |
-___
+|---|---|---|---|---|
 | --db-name | name of database | yes | none | |
 | --db-user | user with access to database | yes | none | |
 | --db-password | password of database | yes | none | |
