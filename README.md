@@ -26,7 +26,7 @@ Comments will also be copied into the body of your post (though you can override
 * on your computer's file system
   * create or edit a file /etc/hosts.allow
   * add the line `mysqld : ALL : ALLOW`
-* run jar located in the target directory
+* run jar located in the target directory of this repository
   * Run `java -jar wherever/you/have/it/wp-to-jekyll-0.1.0-SNAPSHOT-standalone.jar` with required and optional options
     * See option list below.
   * Example:
